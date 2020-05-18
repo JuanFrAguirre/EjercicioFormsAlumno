@@ -138,6 +138,7 @@
             this.lblTurnoNoc.Size = new System.Drawing.Size(12, 16);
             this.lblTurnoNoc.TabIndex = 11;
             this.lblTurnoNoc.Text = "-";
+            this.lblTurnoNoc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblTurnoTar
             // 
@@ -147,6 +148,7 @@
             this.lblTurnoTar.Size = new System.Drawing.Size(12, 16);
             this.lblTurnoTar.TabIndex = 12;
             this.lblTurnoTar.Text = "-";
+            this.lblTurnoTar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblModDis
             // 
@@ -156,6 +158,7 @@
             this.lblModDis.Size = new System.Drawing.Size(12, 16);
             this.lblModDis.TabIndex = 13;
             this.lblModDis.Text = "-";
+            this.lblModDis.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblModSemi
             // 
@@ -165,6 +168,7 @@
             this.lblModSemi.Size = new System.Drawing.Size(12, 16);
             this.lblModSemi.TabIndex = 14;
             this.lblModSemi.Text = "-";
+            this.lblModSemi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblModPres
             // 
@@ -174,6 +178,7 @@
             this.lblModPres.Size = new System.Drawing.Size(12, 16);
             this.lblModPres.TabIndex = 15;
             this.lblModPres.Text = "-";
+            this.lblModPres.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblTurnoMan
             // 
@@ -183,6 +188,7 @@
             this.lblTurnoMan.Size = new System.Drawing.Size(12, 16);
             this.lblTurnoMan.TabIndex = 10;
             this.lblTurnoMan.Text = "-";
+            this.lblTurnoMan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblPromGral
             // 
@@ -192,6 +198,7 @@
             this.lblPromGral.Size = new System.Drawing.Size(12, 16);
             this.lblPromGral.TabIndex = 5;
             this.lblPromGral.Text = "-";
+            this.lblPromGral.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label8
             // 
@@ -211,6 +218,7 @@
             this.lblAlumnoMin.Size = new System.Drawing.Size(12, 16);
             this.lblAlumnoMin.TabIndex = 6;
             this.lblAlumnoMin.Text = "-";
+            this.lblAlumnoMin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label9
             // 
@@ -230,6 +238,7 @@
             this.lblCantDesap.Size = new System.Drawing.Size(12, 16);
             this.lblCantDesap.TabIndex = 7;
             this.lblCantDesap.Text = "-";
+            this.lblCantDesap.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label10
             // 
@@ -249,6 +258,7 @@
             this.lblCantProm.Size = new System.Drawing.Size(12, 16);
             this.lblCantProm.TabIndex = 8;
             this.lblCantProm.Text = "-";
+            this.lblCantProm.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label11
             // 
@@ -268,6 +278,7 @@
             this.lblCantReg.Size = new System.Drawing.Size(12, 16);
             this.lblCantReg.TabIndex = 9;
             this.lblCantReg.Text = "-";
+            this.lblCantReg.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label12
             // 
@@ -287,6 +298,7 @@
             this.lblAlumnoMax.Size = new System.Drawing.Size(12, 16);
             this.lblAlumnoMax.TabIndex = 4;
             this.lblAlumnoMax.Text = "-";
+            this.lblAlumnoMax.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label13
             // 
@@ -392,6 +404,7 @@
             this.lblProm.Size = new System.Drawing.Size(10, 13);
             this.lblProm.TabIndex = 22;
             this.lblProm.Text = "-";
+            this.lblProm.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label35
             // 
@@ -411,6 +424,7 @@
             this.lblNotaMin.Size = new System.Drawing.Size(10, 13);
             this.lblNotaMin.TabIndex = 23;
             this.lblNotaMin.Text = "-";
+            this.lblNotaMin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label34
             // 
@@ -430,6 +444,7 @@
             this.lblCondicion.Size = new System.Drawing.Size(10, 13);
             this.lblCondicion.TabIndex = 25;
             this.lblCondicion.Text = "-";
+            this.lblCondicion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label32
             // 
@@ -449,6 +464,7 @@
             this.lblNotaMax.Size = new System.Drawing.Size(10, 13);
             this.lblNotaMax.TabIndex = 21;
             this.lblNotaMax.Text = "-";
+            this.lblNotaMax.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label31
             // 
@@ -470,6 +486,7 @@
             this.btnRegistrar.TabIndex = 13;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // btnSalir
             // 
@@ -481,6 +498,7 @@
             this.btnSalir.TabIndex = 14;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // label28
             // 
@@ -609,6 +627,7 @@
             this.txtLegajo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtLegajo.Size = new System.Drawing.Size(100, 20);
             this.txtLegajo.TabIndex = 1;
+            this.txtLegajo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtNombre
             // 
@@ -644,6 +663,7 @@
             this.txtDocumento.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtDocumento.Size = new System.Drawing.Size(100, 20);
             this.txtDocumento.TabIndex = 5;
+            this.txtDocumento.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // cboTipoDoc
             // 
@@ -705,6 +725,7 @@
             this.txtNota1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtNota1.Size = new System.Drawing.Size(100, 20);
             this.txtNota1.TabIndex = 10;
+            this.txtNota1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtNota2
             // 
@@ -713,6 +734,7 @@
             this.txtNota2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtNota2.Size = new System.Drawing.Size(100, 20);
             this.txtNota2.TabIndex = 11;
+            this.txtNota2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtNota3
             // 
@@ -721,6 +743,7 @@
             this.txtNota3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtNota3.Size = new System.Drawing.Size(100, 20);
             this.txtNota3.TabIndex = 12;
+            this.txtNota3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // frmAlumnos
             // 
